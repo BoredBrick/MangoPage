@@ -1,0 +1,123 @@
+body {
+  margin: 0px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5.65rem;
+  color: #66bfbf;
+  font-family: "Sacramento", cursive;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  color: #11999e;
+  font-family: sans-serif;
+}
+p {
+  font-family: sans-serif;
+  line-height: 2;
+}
+
+hr {
+  border: none;
+  width: 90px;
+  border-top: dotted;
+  border-width: 10px;
+  opacity: 20%;
+  margin: 100px auto;
+}
+
+.beer {
+  border-radius: 50%;
+  width: 200px;
+  float: right;
+  margin-left: 30px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.my-skills {
+  line-height: 2;
+  text-align: left;
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+
+a.button {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #000000;
+  margin: 50px 0.3em 50px 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #000000;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.bottom {
+  height: 200px;
+  background-color: #eaf6f6;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
+  margin-bottom: 0px;
+}
+
+a.button:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+.coding {
+  width: 200px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.profile-pic {
+  padding: 50px;
+  border-radius: 50%;
+  background-color: #eaf6f6;
+  width: 130px;
+}
+
+.header-div {
+  position: relative;
+  background-color: #eaf6f6;
+  margin-top: 0px;
+  padding-top: 70px;
+}
+
+.middle-div {
+  margin-top: 50px;
+}
+
+.top-cloud {
+  opacity: 0.5;
+  right: 450px;
+  top: 30px;
+  height: 70px;
+  width: auto;
+  position: absolute;
+}
+.bottom-cloud {
+  opacity: 0.5;
+  left: 450px;
+  bottom: 350px;
+  height: 70px;
+  width: auto;
+  position: absolute;
+}
